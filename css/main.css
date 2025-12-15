@@ -5,15 +5,25 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+:root {
+	--dark-pink: #9260e8;
+	--main: #ffffff;
+	--cyan-blue: #48d0b7;
+	--mirage-black: #3a3a3a;
+	--charm-pink: #cf468d;
+	--light-gray: #a2a2a2;
+}
 h1 {
 	font-size: 42px;
 	line-height: 48px;
+	color: var(--main);
 }
 h2 {
 	font-size: 32px;
 }
 h3 {
 	font-size: 26px;
+    color: var(--main);
 }
 h4 {
 	font-size: 18px;
@@ -23,6 +33,4 @@ h5 {
 }
 h6 {
 	font-size: 12px;
-}
-p {
 }
