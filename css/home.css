@@ -254,7 +254,11 @@ li {
 		height: 378px;
 		position: absolute;
 		top: 130px;
+<<<<<<< HEAD
 		left: 475px;
+=======
+		left: 430px;
+>>>>>>> e68c456cbf32f742b668703660dd15147840e026
 	}
 	header {
 		position: relative;
@@ -300,9 +304,15 @@ li {
 	}
 	.img01 {
 		position: absolute;
+<<<<<<< HEAD
 		top: 115px;
 		left: 910px;
 		width: 35%;
+=======
+		top: 110px;
+		left: 950px;
+		width: 500px;
+>>>>>>> e68c456cbf32f742b668703660dd15147840e026
 		height: 500px;
 	}
 	.btn1 {
