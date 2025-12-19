@@ -50,6 +50,7 @@ h1 {
 }
 main {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	margin-top: 60px;
@@ -153,6 +154,7 @@ strong {
 
 .demo {
 	background: linear-gradient(90deg, #523682, #6062e8);
+	width: 100vw;
 	margin-left: -79px;
 	display: flex;
 	flex-direction: column;
@@ -161,6 +163,21 @@ strong {
 	margin-top: 60px;
 	padding: 50px;
 	gap: 30px;
+}
+.h22 {
+	color: #3a3a3a;
+	font-family: Poppins;
+	font-weight: 700;
+	font-style: Bold;
+	font-size: 32px;
+}
+.blog {
+	padding: 15px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+#images1-5 {
+	margin-top: 50px;
 }
 h2 {
 	color: #ffffff;
