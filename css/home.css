@@ -251,7 +251,7 @@ input {
 	}
 }
 
-@media screen and (min-width: 910px) {
+@media screen and (min-width: 770px) {
 	body {
 		width: 100%;
 	}
@@ -283,11 +283,11 @@ input {
 	}
 	.img01 {
 		display: flex;
-		width: 393px;
-		height: 378px;
+		width: 400px;
+		height: 385px;
 		position: absolute;
-		top: 130px;
-		left: 475px;
+		top: 15vw;
+		left: 55vw;
 	}
 	header {
 		position: relative;
@@ -299,17 +299,17 @@ input {
 	.one {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 	.two {
 		display: flex;
 		flex-direction: row-reverse;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 	.three {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 	.principal {
 		padding: 10px;
@@ -336,6 +336,8 @@ input {
 	.boites {
 		display: flex;
 		flex-direction: row;
+		margin-left: 100px;
+		margin-bottom: 50px;
 		gap: 250px;
 	}
 	.bloc1 {
@@ -343,14 +345,17 @@ input {
 	}
 	.img01 {
 		position: absolute;
-		top: 115px;
-		left: 910px;
+		top: 7vw;
+		left: 58vw;
 		width: 35%;
 		height: 500px;
 	}
 	.btn1 {
 		width: 10%;
 		margin-top: 30px;
+	}
+	.principal {
+		padding: 20px;
 	}
 	.foncts {
 		margin: 20px;

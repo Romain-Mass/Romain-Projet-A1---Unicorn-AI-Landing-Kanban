@@ -159,7 +159,7 @@ strong {
 	flex-direction: column;
 	justify-content: stretch;
 	align-items: center;
-	margin-top: 60px;
+	margin-top: -25px;
 	padding: 50px;
 	gap: 30px;
 }
@@ -326,6 +326,44 @@ input {
   color: #9ca3af;
 }
 
+.comments {
+	background-color: #9260E8;
+	width: 100vw;
+	margin-left: -27.5vw;
+}
+.haut3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: start;
+	margin-top: 30px;
+	gap: 50px;
+}
+#image2 {
+	align-self: end;
+}
+h4, #h333 {
+	color: white;
+}
+.h4 {
+	text-align: center;
+	width: 29vw;
+	font-family: Poppins;
+	font-weight: 800;
+	font-size: 18px;
+}
+.haut4 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	gap: 30px;
+}
+.class {
+	display: block;
+}
 
 @media screen and (max-width: 320px) {
 	body {
@@ -333,7 +371,7 @@ input {
 	}
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 	body {
 		width: 100%;
 	}
@@ -368,8 +406,8 @@ input {
 		width: 393px;
 		height: 378px;
 		position: absolute;
-		top: 130px;
-		left: 475px;
+		top: 20vw;
+		left: 52vw;
 	}
 	header {
 		position: relative;
@@ -394,7 +432,7 @@ input {
 		justify-content: space-between;
 	}
 	.demo {
-		width: 103vw;
+		width: 102vw;
 	}
 	.principal {
 		padding: 10px;
@@ -417,9 +455,19 @@ input {
 		flex-wrap: wrap;
 		gap: 24px;
 	}
+	.comments {
+		width: 103.5vw;
+		margin-left: -36.5vw;
+	}
+	.h4 {
+		width: 90%;
+		max-width: 900px;
+		margin: 0 auto;
+		text-align: center;
+	}
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1024px) {
 	body {
 		width: 100%;
 	}
@@ -433,8 +481,8 @@ input {
 	}
 	.img01 {
 		position: absolute;
-		top: 115px;
-		left: 910px;
+		top: 10vw;
+		left: 58vw;
 		width: 35%;
 		height: 500px;
 	}
