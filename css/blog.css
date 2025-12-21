@@ -159,7 +159,6 @@ strong {
 	flex-direction: column;
 	justify-content: stretch;
 	align-items: center;
-	margin-top: -25px;
 	padding: 50px;
 	gap: 30px;
 }
